@@ -212,4 +212,9 @@
                 settings:allowDividerAbove="true"
                 settings:allowDividerBelow="true"/>
 
+        <Preference android:key="author_header"
+                  style="?android:preferenceInformationStyle" 
+                  android:title="@string/author_header" 
+                  android:summary="@string/author_name" />
+
 </PreferenceScreen>
